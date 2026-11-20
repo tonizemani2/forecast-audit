@@ -1,0 +1,29 @@
+{
+ "imported": {
+  "data/project-red-ndom-monthly.csv": "3c5924258a2bdb6e27f19be79d94c27df498866da2a0fefffdc3280650a67edf",
+  "extract_ndom.py": "706b23ac5e89fdcfcffd13ccf4ac7806c6f2f69e9b00ae9631033eb258d79d37",
+  "fieldmodel.py": "571eee9164c2d15d3b0f8b6721affb6998ba830b862079d00be4f801d28e3578"
+ },
+ "registered_forecast_sha256": "b06e607e2aec730ff630b6795932101b23d3a5044469d6a886d91ffd572df78f",
+ "registered_statement_sha256": "be752098edbe1d296ece77199c40ddda03266589af3676af09131487c5da7412",
+ "results": {
+  "FORECASTS.md": "be752098edbe1d296ece77199c40ddda03266589af3676af09131487c5da7412",
+  "RECORD.md": "037e647cf34d20a29a3e90cad5579dddfb125d6b7ade1e5741b8d270fb1129a3",
+  "forecast.json": "b06e607e2aec730ff630b6795932101b23d3a5044469d6a886d91ffd572df78f",
+  "forecast.json.digicert.tsr": "6b89dd7901f823e8251e972bd2593949bbde10969736727ad0746937f519c099",
+  "forecast.json.freetsa.tsr": "41140099f3479b7a5ad4c2cc5031c5d4fe288ed9234cd09abe5fa0482778fe6f",
+  "frozen.json": "cc32dd44dfcafb6859496591e552b3567607dd5b54d0f38e50868688b1595dfa",
+  "frozen.json.digicert.tsr": "30c93ed631ad84455b7cae13c3deb99db8fdf852387fa77bc45d726d078e8b7b",
+  "frozen.json.freetsa.tsr": "706f64fcd0035562df885956b3ea8b441994065d2c15b734109a73f3937555d0",
+  "hindcast.json": "9628f68cb1a35d462ee60b0168fd57bf18301f4f3339764156b673a9ee8709e3",
+  "hindcast.json.digicert.tsr": "b586156320ed25cbf621da744c6f435dcc46022de048448beab3d5589748d571",
+  "hindcast.json.freetsa.tsr": "87236c82d3d5707eb33115a9cf8378658c32de039fe62b389bd26ed4336ffa50",
+  "score-through-2026-07-31.json": "e82ddb31e26b07f57eae5c7857248c296687efdb8408ceedc4a0ac172da40802"
+ },
+ "sources": {
+  "PLAN.md": "fcd7ad0d4819a44cef9985aab39fcee4eb5730247520b2137b2d73beadd6f3aa",
+  "retention.py": "970cbe6a536d44abde7ae1a0e3c334974ad13a960bff53312cad79a21f9a7dcc",
+  "run.py": "2e206792b84327669a7bbbd2ce425ceb34373f7f48fbefcb0993b75d8237588c",
+  "test_retention.py": "26f43e6f2f9fb5d33020a429e7ee711134e8c2f6b5b9e2d3a0fbf8fe8199fd61"
+ }
+}
