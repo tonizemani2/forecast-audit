@@ -1,0 +1,27 @@
+{
+ "registered_forecast_sha256": "10d2163da214f6c6c5c57f3f75cda6500db6d0d95529d4b9599d405aeedee611",
+ "results": {
+  "FLEET-RECORD.md": "28768813faff07232f1ebd389b7ba317312d6be7335699313be3eba0863df9da",
+  "forecast.json": "10d2163da214f6c6c5c57f3f75cda6500db6d0d95529d4b9599d405aeedee611",
+  "hindcast.json": "b5c33c9ff8c90a734cc164b681a1f0f1b4a0f0e9f4a015f303009bd5c4c33cda"
+ },
+ "sources": {
+  "sweep-fleet/PLAN.md": "d43cff048f8b23d93738cea708294d30ebe4109d73a00b79a55a1935eb7b5bed",
+  "sweep-fleet/fleet.py": "b0231acebc28ca2ec30962fa0d259aca87c4608a00a025a7b064645dacaa2b5b",
+  "sweep-fleet/run.py": "7b914f2c73cec99d11297667f576bce40643da52d930fab38d5403164b3ea0ac",
+  "sweep-fleet/test_fleet.py": "f482bd21f6e353861f9987f22dd69a26bb573025a946c63b89e2ae944e339090",
+  "thermal-sweep/conformance.py": "3713b1d0635a1e2fa6d2cc7552bdf8f6aaf72175c0270b08c397ffc39da047fd",
+  "thermal-sweep/extract_forge.py": "f2f5eeff0de6a2064b4154ce05119cd32c7aff312bf8f85198dc3e83b726e74f",
+  "thermal-sweep/extract_ndom.py": "706b23ac5e89fdcfcffd13ccf4ac7806c6f2f69e9b00ae9631033eb258d79d37",
+  "thermal-sweep/fieldmodel.py": "571eee9164c2d15d3b0f8b6721affb6998ba830b862079d00be4f801d28e3578",
+  "thermal-sweep/run.py": "23823bf2230179265b5bf4425f41bdeb8ba6fce09a2e4555a6bdd41d97b3f26d",
+  "thermal-sweep/scoring.py": "59b409947ac02b1cc5c34fba6ce37f793c938bb865656c4dbc9fbbe8d41681ba",
+  "thermal-sweep/svgchart.py": "87ac9abf88649b00762f395edaa7e49b6cc2e8206a10048e42e31f2b99fa1c53",
+  "thermal-sweep/sweep.py": "8606288bab45d18ab98731625f50f78623d5dde787a7087c494a3de904bde835",
+  "thermal-sweep/test_conformance.py": "50b0dd60a13397a644be724e8ba9e1e69f3a5498d554897c0965d9a8f7660032",
+  "thermal-sweep/test_field.py": "85edcfefe664a356342159fcd900ae725fb2aa24aee7fbf8e9ff95973c334966",
+  "thermal-sweep/test_scoring.py": "5904162c8c331881ae591062790724528a22f090ea6569276a32a2bf0c6ce659",
+  "thermal-sweep/test_sweep.py": "03c47be70e16b0cc57372560627a79d897f202c67d39621e9ab784ca2a42cbcc"
+ },
+ "workbook_sha256": "08f1cafb1ca1de717f19733c957802c89313d918b1d85dd5c7c8e0a5f47902fe"
+}
