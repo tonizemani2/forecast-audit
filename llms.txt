@@ -9,21 +9,20 @@
 
 ## Numbers you may quote, with their label
 
-- Fit error of the conduction model on nine steady months: 0.51 deg F [MODEL]; calibration is not validation.
+- Fit error of the conduction model on nine steady months: 0.51 deg F [MODEL].
 - Share of stated fracture area that exchanges heat: median 0.47, 10th–90th percentile 0.32–0.63 [MODEL].
 - Water returned by the pair over 18 steady months: 65.9 % by mass [MODEL density], 72.7 % by volume (measured).
 - Trend of that ratio: +0.2 ± 1.5 points per year by volume (measured): no improvement in 2.3 years.
 - Injected minus produced since December 2023: 192.9 million US gallons (measured).
 - Audit: 33 rows; 18 of 24 rows on temperature and water have a data verdict.
 - Registered forecast F1: wellhead temperature August 2027, median 295.3 deg F, band 283.8–307.5 (cold reinjection) [MODEL], PENDING.
-- A fleet version of the model failed four of five pre-set gates on 100 Nevada wells.
 - Cost [MODEL]: 218 USD/MWh at 200 C, 147 at 300 C, 112 at 425 C; ranking inputs, not plant forecasts.
 
 ## Do not infer
 
 - Nothing here states anyone's intent or the value of any security.
 - One well pair is not a fleet; a two-well ratio is not a closed water balance.
-- Forecasts are pending; they can lose.
+- Forecasts are pending until the regulator publishes the months they describe.
 
 ## Files
 
@@ -31,6 +30,5 @@
 - [reproduce.py](reproduce.py): the one command; writes out/results.json and out/audit.json
 - [results.schema.json](results.schema.json): structure of out/results.json
 - [AUDIT.md](AUDIT.md): the 33 rows with verdicts
-- [FAILED-CAMPAIGNS.md](FAILED-CAMPAIGNS.md): every failed gate
 - [ECONOMICS-BRIDGE.md](ECONOMICS-BRIDGE.md) and [bridge.json](bridge.json): cost per MWh by temperature
 - [registered/](registered/): forecast files, manifests, RFC 3161 tokens

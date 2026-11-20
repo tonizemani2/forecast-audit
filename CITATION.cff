@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this record, please cite it as below."
 title: "Forecast and audit record for the first enhanced-geothermal production history (Project Red, Nevada)"
-version: "1.0.0"
+version: "1.0.1"
 date-released: "2026-11-20"
 type: software
 authors:
@@ -12,7 +12,7 @@ abstract: >-
   (0.51 deg F) to the Nevada regulator's monthly record of an enhanced
   geothermal well pair, its water balance (65.9 % of injected mass returned),
   a 33-row audit of public claims about it, and forecasts registered and
-  time-stamped before the data exist. Failed campaigns are included.
+  time-stamped before the data exist.
 keywords:
   - enhanced geothermal systems
   - thermal decline

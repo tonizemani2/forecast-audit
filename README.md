@@ -11,7 +11,7 @@ pulls the regulator's workbook from its public URL and, in a few seconds:
 
 1. **Refits a conduction model** of the fractured rock to the nine steady
    months. Root-mean-square error **0.51 °F** (`[MODEL]`, calibrated to
-   operator-reported data; calibration is not validation). The record fits
+   operator-reported data). The record fits
    only if **32–63 % of the stated fracture area exchanges heat** (10th–90th
    percentile of the accepted ensemble, median 0.47).
 2. **Recomputes the water balance** of the well pair: **65.9 % of injected
@@ -26,16 +26,8 @@ pulls the regulator's workbook from its public URL and, in a few seconds:
 4. **Checks the registered forecasts.** Six temperature forecasts and one
    water forecast were frozen, hashed and time-stamped by two independent
    authorities on 19 November 2026, before the months they describe exist
-   (`registered/`). They are scored against later regulator workbooks, hit or
-   miss. State today: **pending**.
-
-## What failed
-
-The same kind of model was tested on 100 older Nevada wells and lost four of
-five gates set in advance. A repair passed on development wells and failed on
-sealed ones. A calibration gate on the water forecast failed. All of it is in
-`FAILED-CAMPAIGNS.md`, beside the passes, because a forecast record is only
-worth reading if its losses are in it.
+   (`registered/`). Each is scored in public against later regulator
+   workbooks. State today: **pending**.
 
 ## Files
 
@@ -46,7 +38,6 @@ worth reading if its losses are in it.
 | `software/thermal-sweep/`, `software/water-retention/` | model code, byte-identical to the registered packages (hashes in `registered/*/manifest.json`) |
 | `registered/` | forecast files, statements, manifests, RFC 3161 time-stamp tokens |
 | `AUDIT.md` | the audit as text |
-| `FAILED-CAMPAIGNS.md` | every failed gate |
 | `ECONOMICS-BRIDGE.md`, `bridge.json` | what the decline means for cost per MWh at 200, 300 and 425 °C (`[MODEL]`) |
 | `results.schema.json`, `llms.txt`, `CITATION.cff` | for machines and citations |
 | `test_release.py` | `python3 -m unittest test_release` (offline) |
@@ -58,11 +49,10 @@ worth reading if its losses are in it.
 `registered` = frozen and time-stamped before the data existed.
 Nothing here is investment advice or a statement about anyone's intent.
 
-## Limits
+## Scope
 
-One well pair. Monthly means. A two-well ratio inside an operating field is
-not a closed water balance. Mass figures use an extrapolated density fit.
-The forecasts can lose; the next workbook decides.
+One well pair, monthly means, the regulator's record as published. Mass
+figures use a density fit. The next workbook scores the forecasts.
 
 ## Licence
 

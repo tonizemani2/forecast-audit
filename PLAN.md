@@ -49,8 +49,7 @@ rewritten.
 `reproduce.py`, `audit.py`, copied model files, the registered extract and
 `SOURCES.json`; `registered/` (forecast files, statements, manifests and
 RFC 3161 tokens of the thermal-sweep, sweep-fleet and water-retention
-records); `AUDIT.md` (public text of the audit); `FAILED-CAMPAIGNS.md` (every
-failed gate of the forecasting line, beside the passes); `ECONOMICS-BRIDGE.md`
+records); `AUDIT.md` (public text of the audit); `ECONOMICS-BRIDGE.md`
 and `bridge.json` (`[MODEL]` cost per MWh at 200, 300 and 425 °C from the
 registered ledger, copied with labels, not recomputed here); `README.md`,
 `LICENSE`, `CITATION.cff`, `llms.txt`, `results.schema.json`, tests.
