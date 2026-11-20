@@ -1,0 +1,39 @@
+{
+ "registered_forecast_sha256": "5668178c1f7347850e8480ba937b4be8aeb5499c971bd10f281b0e6b63c7bf2d",
+ "registered_statement_sha256": "792cfd113a15ac4b6e485009b2564d54f1bb31a789af91c7b3c794e3e16de884",
+ "results": {
+  "FORECASTS.md": "792cfd113a15ac4b6e485009b2564d54f1bb31a789af91c7b3c794e3e16de884",
+  "conformance-trials.json": "051da9c1c5f86ff27598694192302f0a2974427cb708787a45cdc3811ca6e764",
+  "conformance.json": "38bf1542262a8517306f548132791a5b8fe78301ae80289bd246cd37755812dd",
+  "figures/cape-class-forecast.svg": "99e1458e047b833cab5ff83f7a277db575b5cd3014382838b9159090ce39b3c2",
+  "figures/conformance-h-forge.svg": "518cc7a7ece1489a4ce25baf8ee952b6289f4ec1a1c8a45df57caf699fb24e64",
+  "figures/forge-2026-forecast.svg": "3c1948c93edb8cb4e6429bba5c1d4669d8fb4e7deea84f89dae6e84b5520bfce",
+  "figures/project-red-match.svg": "c00146c3cb5202ba78fc24f6a8a2ccb33c60c876e3692244ef26348305ddb6e3",
+  "forecast-forge-members.json": "b1c593cab23302bd17655dca34ece58a1f3fe60a5e78589a9b4414ead4f10de2",
+  "forecast.json": "5668178c1f7347850e8480ba937b4be8aeb5499c971bd10f281b0e6b63c7bf2d",
+  "forecast.json.digicert.tsr": "834f9066c3a0ed722a2e22ea059a54e24ce0ff620563e18f404006ac800627e7",
+  "forecast.json.freetsa.tsr": "64f827461d6331ae550f75ce55843fe96530cc0b5135cbde2b0b1a9e4085d76a",
+  "hindcast.json": "2998680884d75c2c1625ad16e78a651a4ca05afae7e664cb8851e123bf974ace",
+  "match.json": "2fc8686b512a239e03b6e85b0a689ccfc76d42fe7b535828c233742a8d4caaf1",
+  "score-through-2026-07-31.json": "01971faa019732796e65754992c51d0d3b0d85fdfb315164d57dec4e2cf1e422"
+ },
+ "sources": {
+  "PLAN.md": "203cb5a0cf8fd97b49fac26c01846fdc055794d5669ca612942b5ebcc24783b4",
+  "conformance.py": "3713b1d0635a1e2fa6d2cc7552bdf8f6aaf72175c0270b08c397ffc39da047fd",
+  "data/SOURCES.json": "7e3276aa9f07e144785ee2bdf84ff8ce13114a7d329e25bb06b70064f8eeef2a",
+  "data/forge-2024-daily.csv": "4fb2423826f9e9737e0c0bd878ddb67ceca07172257f6de36e90f7ab41bb8bc7",
+  "data/forge-spinner-2024.csv": "250060c8d84c6ce7c2dca2435c23bbcc5e2d549f6f14e15aed76b0c94ee6e397",
+  "data/project-red-ndom-monthly.csv": "3c5924258a2bdb6e27f19be79d94c27df498866da2a0fefffdc3280650a67edf",
+  "extract_forge.py": "f2f5eeff0de6a2064b4154ce05119cd32c7aff312bf8f85198dc3e83b726e74f",
+  "extract_ndom.py": "706b23ac5e89fdcfcffd13ccf4ac7806c6f2f69e9b00ae9631033eb258d79d37",
+  "fieldmodel.py": "571eee9164c2d15d3b0f8b6721affb6998ba830b862079d00be4f801d28e3578",
+  "run.py": "23823bf2230179265b5bf4425f41bdeb8ba6fce09a2e4555a6bdd41d97b3f26d",
+  "scoring.py": "59b409947ac02b1cc5c34fba6ce37f793c938bb865656c4dbc9fbbe8d41681ba",
+  "svgchart.py": "87ac9abf88649b00762f395edaa7e49b6cc2e8206a10048e42e31f2b99fa1c53",
+  "sweep.py": "8606288bab45d18ab98731625f50f78623d5dde787a7087c494a3de904bde835",
+  "test_conformance.py": "50b0dd60a13397a644be724e8ba9e1e69f3a5498d554897c0965d9a8f7660032",
+  "test_field.py": "85edcfefe664a356342159fcd900ae725fb2aa24aee7fbf8e9ff95973c334966",
+  "test_scoring.py": "5904162c8c331881ae591062790724528a22f090ea6569276a32a2bf0c6ce659",
+  "test_sweep.py": "03c47be70e16b0cc57372560627a79d897f202c67d39621e9ab784ca2a42cbcc"
+ }
+}

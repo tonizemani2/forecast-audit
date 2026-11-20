@@ -1,0 +1,137 @@
+{
+ "cutoffs": [
+  {
+   "acceptance_rmse_f": 1.0,
+   "accepted_runs": 50,
+   "best_rmse_f": 0.506000040973702,
+   "cutoff": "2025-12-31",
+   "fit_months": [
+    "2024-05-31",
+    "2024-09-30",
+    "2025-07-31",
+    "2025-11-30"
+   ],
+   "inside": 5,
+   "mean_abs_error_f": {
+    "linear_trend": 6.8,
+    "model": 2.095987210535634,
+    "persistence": 7.8
+   },
+   "months": [
+    {
+     "error_f": 0.6184581027276863,
+     "inside": true,
+     "median_f": 341.6184581027277,
+     "month_end": "2026-01-31",
+     "observed_f": 341.0,
+     "p10_f": 338.3717826916934,
+     "p90_f": 344.64251737786356,
+     "persistence_error_f": 3.0,
+     "trend_error_f": 2.5
+    },
+    {
+     "error_f": 2.1186709500409506,
+     "inside": true,
+     "median_f": 340.11867095004095,
+     "month_end": "2026-02-28",
+     "observed_f": 338.0,
+     "p10_f": 336.5655371420824,
+     "p90_f": 343.8770642833759,
+     "persistence_error_f": 6.0,
+     "trend_error_f": 5.25
+    },
+    {
+     "error_f": 2.3808381327647794,
+     "inside": true,
+     "median_f": 338.3808381327648,
+     "month_end": "2026-03-31",
+     "observed_f": 336.0,
+     "p10_f": 334.8299045609156,
+     "p90_f": 343.03884125825806,
+     "persistence_error_f": 8.0,
+     "trend_error_f": 7.0
+    },
+    {
+     "error_f": 2.518153379671787,
+     "inside": true,
+     "median_f": 336.5181533796718,
+     "month_end": "2026-04-30",
+     "observed_f": 334.0,
+     "p10_f": 332.63861578286475,
+     "p90_f": 342.1456083471046,
+     "persistence_error_f": 10.0,
+     "trend_error_f": 8.75
+    },
+    {
+     "error_f": 2.843815487472966,
+     "inside": true,
+     "median_f": 334.84381548747297,
+     "month_end": "2026-05-31",
+     "observed_f": 332.0,
+     "p10_f": 330.2212851944846,
+     "p90_f": 341.0641406993211,
+     "persistence_error_f": 12.0,
+     "trend_error_f": 10.5
+    }
+   ],
+   "of": 5
+  },
+  {
+   "acceptance_rmse_f": 1.0,
+   "accepted_runs": 32,
+   "best_rmse_f": 0.4421214349844815,
+   "cutoff": "2026-02-28",
+   "fit_months": [
+    "2024-05-31",
+    "2024-09-30",
+    "2025-07-31",
+    "2025-11-30",
+    "2025-12-31",
+    "2026-01-31"
+   ],
+   "inside": 3,
+   "mean_abs_error_f": {
+    "linear_trend": 4.0,
+    "model": 1.9341159909551682,
+    "persistence": 7.0
+   },
+   "months": [
+    {
+     "error_f": 1.6008975031089108,
+     "inside": true,
+     "median_f": 337.6008975031089,
+     "month_end": "2026-03-31",
+     "observed_f": 336.0,
+     "p10_f": 335.0975518161939,
+     "p90_f": 341.0442130399028,
+     "persistence_error_f": 5.0,
+     "trend_error_f": 3.0
+    },
+    {
+     "error_f": 2.0184961066803453,
+     "inside": true,
+     "median_f": 336.01849610668035,
+     "month_end": "2026-04-30",
+     "observed_f": 334.0,
+     "p10_f": 332.9614065387199,
+     "p90_f": 340.08070843539076,
+     "persistence_error_f": 7.0,
+     "trend_error_f": 4.0
+    },
+    {
+     "error_f": 2.1829543630762487,
+     "inside": true,
+     "median_f": 334.18295436307625,
+     "month_end": "2026-05-31",
+     "observed_f": 332.0,
+     "p10_f": 330.489648533629,
+     "p90_f": 338.86176818865084,
+     "persistence_error_f": 9.0,
+     "trend_error_f": 5.0
+    }
+   ],
+   "of": 3
+  }
+ ],
+ "label": "[MODEL] out-of-sample check on months already published; drive = reported flows"
+}
