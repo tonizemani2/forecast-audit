@@ -1,0 +1,76 @@
+{
+  "retrieved": "2026-11-19",
+  "note": "Public third-party records. Operator-reported regulator data and vendor statements are not independently audited. Values are transcribed verbatim.",
+  "sources": {
+    "S1": {
+      "title": "Nevada Division of Minerals — Geothermal Production And Well Data - 09/29/2026",
+      "url": "https://www.arcgis.com/sharing/rest/content/items/dcccb7e35aee4885aa4e2aed84b505cf/data",
+      "landing": "https://data-ndom.opendata.arcgis.com/pages/oilgasandgeothermalproduction",
+      "local": "source/ndom-geothermal-production-and-well-data-2026-09-29.xlsx",
+      "sha256": "08f1cafb1ca1de717f19733c957802c89313d918b1d85dd5c7c8e0a5f47902fe",
+      "extract": "project-red-ndom-monthly.csv",
+      "extract_sha256": "3c5924258a2bdb6e27f19be79d94c27df498866da2a0fefffdc3280650a67edf",
+      "wells": {"production": "permit 1506, BM 34(31-23)-22, API 27-013-90147", "injection": "permit 1505, BM 34A(14-23)-22, API 27-013-90146"},
+      "label": "measured, operator-reported"
+    },
+    "S2": {
+      "title": "Fervo Energy — Enhanced Geothermal Has Been Proven at Scale. Here's What Two Years of Production Data Show (2026-04-13)",
+      "url": "https://fervoenergy.com/enhanced-geothermal-has-been-proven-at-scale-heres-what-two-years-of-production-data-show/",
+      "used": {"lateral_m": 975, "well_spacing_m": 110, "fracture_height_m": 143, "days_on_production": 614, "average_circulation_kg_s": 36, "recapture": 0.70},
+      "label": "vendor-stated"
+    },
+    "S3": {
+      "title": "McConville (Fervo), EGI presentation 2023-09-19 — Project Red completion design",
+      "url": "https://egi.utah.edu/wp-content/uploads/2023/09/09.45-Emma-McConville-Fervo_EGI_Sept-19-2023.pdf",
+      "used": {"injector_stages": 16, "clusters_per_stage": 6, "cluster_spacing_ft": 30},
+      "label": "vendor-stated"
+    },
+    "S4": {
+      "title": "Xing, McLennan et al. — Analysis of the 2024 Circulation Tests at Utah FORGE and the Response of Fiber Optic Sensing Data, SGW 2025, Table 2 and section 3.4",
+      "url": "https://pangea.stanford.edu/ERE/db/GeoConf/papers/SGW/2025/Xing2.pdf",
+      "extract": "forge-spinner-2024.csv",
+      "extract_sha256": "250060c8d84c6ce7c2dca2435c23bbcc5e2d549f6f14e15aed76b0c94ee6e397",
+      "used": {"august_2024_days": 26.8, "production_bpm": 9.0, "aperture_mm_start_end": [0.18, 0.21]},
+      "label": "measured"
+    },
+    "S5": {
+      "title": "McClure — Preliminary Analysis of Results from the Utah FORGE Project, SGW 2025",
+      "url": "https://pangea.stanford.edu/ERE/db/GeoConf/papers/SGW/2025/Mcclure.pdf",
+      "used": {"tracer_swept_volume_bbl": 4680, "clusters_16A": 27, "well_offset_ft": 330, "swept_area_ft2_mcclure": 9.7e6, "swept_area_ft2_fredd": 5.5e6},
+      "label": "measured / interpretation"
+    },
+    "S6": {
+      "title": "Munday et al. (INL) — Estimating Thermal Breakthrough at Utah-FORGE from a Thermo-Hydraulic Fracture Model Calibrated to Circulation Data, SGW 2026",
+      "url": "https://pangea.stanford.edu/ERE/db/GeoConf/papers/SGW/2026/Munday.pdf",
+      "used": {"wellhead_onset_days": 100, "cooling_rate_k_per_day": 0.032, "injection_temp_c": 50},
+      "label": "third-party model"
+    },
+    "S7": {
+      "title": "Stanford Geothermal Workshop 2027 abstracts (Xing; Neogi; McLin) on the 2026 Utah FORGE circulation test",
+      "url": "https://pangea.stanford.edu/ERE/db/GeoConf/AllAbstracts.php",
+      "used": {"injection_bpm": 9.5, "injection_temp_c": 65, "start": "2026-08-12", "duration_months": 4},
+      "label": "measured (test conditions only; no thermal result stated)"
+    },
+    "S8": {
+      "title": "Fervo EGS generation table (2026-04-13) and Q3-2026 earnings call (2026-11-09)",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/11/09/fervo-energy-frvo-q3-2026-earnings-call-transcript/",
+      "used": {"egs2": {"lateral_ft": 5000, "reservoir_c": 200, "kw_per_kg_s": 95, "gross_mw_per_producer": 9.2}, "egs3": {"lateral_ft": 7500, "reservoir_c": 220, "kw_per_kg_s": 106, "gross_mw_per_producer": 16.0}, "capex_usd_per_kw": {"phase1": 7000, "next": 5500, "target": 3000}},
+      "label": "vendor-stated"
+    },
+    "S9": {
+      "title": "GEOPHIRES case study: 500 MW EGS modeled on Fervo Cape Station (February 2026 update), after Singh et al. 2025",
+      "url": "https://softwareengineerprogrammer.github.io/GEOPHIRES/Fervo_Project_Cape-5.html",
+      "used": {"intra_bench_well_spacing_ft": 500, "cluster_spacing_m": 9.8255, "fractures_per_well": 150, "fracture_height_m": 100, "injectors_per_3_producers": 2},
+      "label": "third-party model"
+    },
+    "S10": {
+      "title": "Utah FORGE: Wells 16A(78)-32 and 16B(78)-32 Extended Circulation Test Data - August and September 2024 (GDR submission 1683, DOI 10.15121/2475065), 30-second record",
+      "url": "https://gdr.openei.org/files/1683/Extended%20Circulation%20Test.zip",
+      "sha256": "ce5a8d4c69ac649024b472219d38601dbd6227ff29cd8c737fe5fe39670786f7",
+      "local": "not stored (16.6 MB); reproduce with extract_forge.py",
+      "extract": "forge-2024-daily.csv",
+      "extract_sha256": "4fb2423826f9e9737e0c0bd878ddb67ceca07172257f6de36e90f7ab41bb8bc7",
+      "label": "measured, raw and uncorrected"
+    }
+  }
+}
