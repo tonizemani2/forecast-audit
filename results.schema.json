@@ -1,0 +1,35 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "out/results.json of forecast-audit-v1",
+ "type": "object",
+ "required": ["release", "run_utc", "workbook", "fit", "water", "audit", "registered_forecasts", "checks", "all_checks_pass", "runtime_s"],
+ "$defs": {
+  "labelled": {
+   "type": "object",
+   "required": ["value", "unit", "label"],
+   "properties": {"value": {}, "unit": {"type": "string"}, "label": {"type": "string", "description": "measured / [MODEL] / registered"}}
+  }
+ },
+ "properties": {
+  "release": {"const": "forecast-audit-v1"},
+  "run_utc": {"type": "string"},
+  "workbook": {"type": "object", "required": ["mode", "sha256"]},
+  "fit": {
+   "type": "object",
+   "required": ["fit_months", "observed_f", "fitted_f", "rmse_f", "registered_rmse_f", "best_parameters", "swept_area_ratio"],
+   "properties": {"observed_f": {"$ref": "#/$defs/labelled"}, "fitted_f": {"$ref": "#/$defs/labelled"}, "rmse_f": {"$ref": "#/$defs/labelled"},
+                  "registered_rmse_f": {"$ref": "#/$defs/labelled"}, "swept_area_ratio": {"$ref": "#/$defs/labelled"}}
+  },
+  "water": {
+   "type": "object",
+   "required": ["steady_months", "recapture_by_mass", "recapture_by_volume", "cumulative_injected_minus_produced", "trend_by_volume"],
+   "properties": {"recapture_by_mass": {"$ref": "#/$defs/labelled"}, "recapture_by_volume": {"$ref": "#/$defs/labelled"},
+                  "cumulative_injected_minus_produced": {"$ref": "#/$defs/labelled"}, "trend_by_volume": {"$ref": "#/$defs/labelled"}}
+  },
+  "audit": {"type": "object", "required": ["rows", "settled_in_sections_A_and_B", "rows_in_sections_A_and_B"]},
+  "registered_forecasts": {"type": "object"},
+  "checks": {"type": "object", "additionalProperties": {"type": "boolean"}},
+  "all_checks_pass": {"type": "boolean"},
+  "runtime_s": {"type": "number"}
+ }
+}

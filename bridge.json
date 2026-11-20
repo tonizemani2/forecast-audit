@@ -1,0 +1,13 @@
+{
+ "label": "[MODEL] copied from the registered constraint ledger of 2026-11-19; reference plants, 8 % real discount rate; ranking inputs, not plant forecasts",
+ "unit": "USD per MWh (heat doublet excluded)",
+ "plants": [
+  {"plant": "EGS 200 C binary", "cost_usd_per_mwh": 218, "net_mw_per_producer": 3.6,
+   "swings": {"well_cost_pm30pct": [182, 254], "discount_rate_6_to_10pct": [193, 247], "surface_pm30pct": [192, 243], "swept_fraction_0.32_to_0.63": [246, 205]}},
+  {"plant": "EGS 300 C flash-binary", "cost_usd_per_mwh": 147, "net_mw_per_producer": 9.1,
+   "swings": {"well_cost_pm30pct": [124, 170], "surface_pm30pct": [129, 165], "discount_rate_6_to_10pct": [130, 166], "swept_fraction_0.32_to_0.63": [170, 135]}},
+  {"plant": "Superhot 425 C", "cost_usd_per_mwh": 112, "net_mw_per_producer": 27.2,
+   "swings": {"well_cost_pm30pct": [96, 129], "swept_fraction_0.32_to_0.63": [131, 102], "surface_pm30pct": [98, 127], "well_life_8_to_30_years": [134, 112]}}
+ ],
+ "vendor_stated_check": {"first_commercial_plant_usd_per_kw": 7000, "model_agreement": "within 2 %", "implied_usd_per_mwh_at_8pct_real": [219, 257]}
+}
